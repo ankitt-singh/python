@@ -34,7 +34,30 @@ print(nums)
 print(nums)
 nums.remove(8)
 print(nums)
+
 # list.pop(idx) - remove the element at the paticular index
 print(nums)
 nums.pop(5)
 print(nums)
+
+# Practice Question
+
+# WAP to ask the user to enter names of theri 3 favorite movies and store in a list.
+
+# movies = []
+
+# movies.append(input("Enter the 1st movie: "))
+# movies.append(input("Enter the 2st movie: "))
+# movies.append(input("Enter the 3st movie: "))
+
+# print(movies)
+
+# WAP to check if the list contains a palindrome of elements. (Hint: use copy() method)
+palindrom = [1,2,3,2,1,5]
+copylist = palindrom.copy()
+copylist.reverse()
+if(palindrom == copylist):
+    print("palindrom")
+else:
+    print("Not a palindrom")
+
